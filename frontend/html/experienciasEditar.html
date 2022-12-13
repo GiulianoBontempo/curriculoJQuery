@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editar Experiências</title>
+</head>
+<body>
+    <form method="post" action="/atualizaExperiencias">
+        NOME: <input type="text" name="nome" value="" required>
+        <br>
+        Descrição: <input type="text" name="descricao" value="" required>
+        <br>
+        <input id="id" type="hidden" name="id">
+        <input type="submit" value="INSERIR">
+    </form>
+    <script src="../js/educacaoEditar.js"></script>
+</body>
+</html>
